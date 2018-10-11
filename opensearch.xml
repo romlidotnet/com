@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Computer Geek</ShortName>
+  <LongName>Search on Computer Geek</LongName>
+  <Description>Search content from blog posts at Computer Geek</Description>
+  <Image type="https://com.romli.net/favicon.ico" height="16" width="16">image/x-icon</Image>
+  <Developer>Computer Geek</Developer>
+  <Url type="application/atom+xml" template="https://com.romli.net/search?q={searchTerms}&amp;feed=atom"/>
+  <Url type="application/rss+xml" template="https://com.romli.net/search?q={searchTerms}&amp;feed=rss2"/>
+  <Url type="text/html" template="https://com.romli.net/search?q={searchTerms}" method="GET" />
+  <Url type="application/opensearchdescription+xml" rel="self" template="URL FILE" />
+</OpenSearchDescription>
