@@ -8,5 +8,5 @@
   <Url type="application/atom+xml" template="https://com.romli.net/search?q={searchTerms}&amp;feed=atom"/>
   <Url type="application/rss+xml" template="https://com.romli.net/search?q={searchTerms}&amp;feed=rss2"/>
   <Url type="text/html" template="https://com.romli.net/search?q={searchTerms}" method="GET" />
-  <Url type="application/opensearchdescription+xml" rel="self" template="URL FILE" />
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://cdn.staticaly.com/gh/romlidotnet/com/74c3e87e/opensearch.xml" />
 </OpenSearchDescription>
